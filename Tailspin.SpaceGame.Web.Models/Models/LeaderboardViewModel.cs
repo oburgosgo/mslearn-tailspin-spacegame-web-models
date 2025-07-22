@@ -28,6 +28,8 @@ namespace TailSpin.SpaceGame.Web.Models
         public string NextLink { get; set; }
         // The total number of results for the selected game mode and region in the view.
         public int TotalResults { get; set; }
+
+        public Score score { get; set; }
     }
 
     /// <summary>
